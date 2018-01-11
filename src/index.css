@@ -3,3 +3,11 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.buttonFixedSize {
+  width: 100px;
+}
+
+tr {
+  height: 35px;
+}
