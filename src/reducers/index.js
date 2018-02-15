@@ -5,8 +5,7 @@ import * as constants from '../actions/constants'
 
 const INITIAL_STATE = []
 
-function roller_coasters(state = INITIAL_STATE, action){
-  console.log(action)
+export function roller_coasters(state = INITIAL_STATE, action){
   switch (action.type) {
     case constants.FETCH_ROLLER_COASTERS_SUCCESS:
       return action.payload
@@ -30,7 +29,7 @@ function roller_coasters(state = INITIAL_STATE, action){
   }
 }
 
-function row_to_update(state = null, action){
+export function row_to_update(state = null, action){
   switch(action.type){
     case constants.UPDATE_ROLLER_COASTER:
     case constants.UPDATE_ROW:
