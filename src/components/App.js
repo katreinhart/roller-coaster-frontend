@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import RollerCoasterTable from './RollerCoasterTable'
 
 
@@ -14,7 +14,7 @@ function App() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
